@@ -1,0 +1,250 @@
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/Lato-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/lato-bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('./fonts/lato-italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main {
+    display: flex;
+    width: 1200px;
+    height: 700px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 50px;
+
+    .container-left {
+        padding: 50px;
+        width: 690px;
+        height: inherit;
+
+
+        .container-left-title {
+            font-size: 36px;
+            font-weight: bold;
+
+        }
+
+        .container-left-content {
+            font-size: 18px;
+            color: gray;
+
+
+
+        }
+
+        .container-left-form {
+            display: flex;
+            margin-top: 70px;
+            flex-direction: column;
+            align-items: flex-start;
+
+            label {
+                font-size: 14px;
+                color: gray;
+
+            }
+
+            .master-card {
+                height: 50px;
+                width: 500px;
+                border-radius: 8px;
+                border-bottom: 1px solid rgb(174, 77, 238);
+                border-top-color: transparent !important;
+                border-left-color: transparent !important;
+                border-right-color: transparent !important;
+                box-sizing: border-box;
+                background-color: rgb(238, 237, 237);
+                box-shadow: 2px rgb(174, 77, 238);
+                  font-size: 18px !important;
+             padding-left: 15px;
+            
+            }
+            .space{
+                letter-spacing: 3px;
+                padding-left: 50px;
+            }
+
+            .card-detail {
+                width: 100%;
+                height: 80px;
+
+                display: flex;
+                flex-flow: column;
+                row-gap: 5px;
+                .card-img{
+                    width: 46px;
+                    height: 26px;
+                    position: absolute;
+                    top: 385px;
+                  
+                    padding-left: 3px;
+                }
+
+            }
+
+
+            .card-expry {
+                height: 80px;
+                display: flex;
+                flex-flow: row;
+                column-gap: 40px;
+
+                .expry {
+                    height: inherit;
+                    display: flex;
+                    flex-flow: column;
+                    row-gap: 5px;
+
+                    >input {
+                        width: 250px;
+                    }
+
+                }
+
+                .cvc {
+                    height: inherit;
+                    display: flex;
+                    flex-flow: column;
+
+                    >input {
+                        width: 205px;
+                    }
+                }
+
+            }
+
+            .submit {
+                display: flex;
+                margin-top: 10px;
+                align-items: center;
+
+                >button {
+                    width: 250px;
+                    height: 50px;
+                    border-radius: 8px;
+                    background-color: rgb(174, 77, 238);
+                    border: transparent;
+                    color: white;
+                    font-size: 22px;
+                    font-weight: 700;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .container-right {
+            width: 500px;
+            height: inherit;
+            background-color: aqua;
+        }
+    }
+
+    .container-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+.blur{
+    width: 200px;
+    height: 200px;
+    background-image: radial-gradient(circle, rgb(169, 17, 233), rgb(197, 124, 225), rgb(217, 182, 230));;
+    position: absolute;
+    z-index: 0;
+    top: 130px;
+  
+    border-radius: 40%;
+}
+        .container-right-main {
+            padding: 30px 20px 20px 40px;
+            margin: 30px;
+            width: 400px;
+            height: 600px;
+            background: rgba(110, 93, 93, 0.1);
+            border-radius: 10px;
+            backdrop-filter: blur(60px); /* میزان blur */
+            -webkit-backdrop-filter: blur(60px); /* برای پشتیبانی از Webkit */
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative;
+      
+
+            .container-right-top {
+                .container-right-top-title {
+                 padding-left: 25px;
+
+                    span {
+                        font-size: 20px;
+                        color: gray;
+                    }
+
+                    p {
+                        font-size: 56px;
+                        font-weight: 700;
+
+                    }
+
+                    
+                }
+                .container-right-top-content{
+                    display: flex;
+
+                    justify-content: space-between;
+                  padding: 30px;
+
+                    .container-right-top-content-main{
+                   font-size: 20px;
+                   font-weight: bold;
+                    }
+                    .container-right-top-content-price{
+                        font-size: 18px;
+                    }
+                }
+                
+            }
+
+        }
+        .line{
+            width: 90%;
+            height: 1px;
+            background-color: rgb(195, 195, 195);
+            margin: 20px auto;
+        }
+        .container-right-bottom{
+          
+            .container-right-bottom-detail{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0px 30px;
+                p{
+                    font-size: 20px;
+                    font-weight: bold;
+
+                }
+                span{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-2</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="container-left">
+            <div class="container-left-title">
+                <span>Let's make Payment</span>
+            </div>
+            <div class="container-left-content">
+                <p>To start your subscription, input class="master-card" your card details to make payment.
+                    You will be redirected to your banks authorization page.</p>
+            </div>
+            <div class="container-left-form">
+                <form>
+                    <div class="card-detail">
+                        <label for="card-name">Cardholder's Name:</label>
+                        <input class="master-card" type="text" id="card-name" name="card-name" placeholder="Bahareh Ahmadi" required>
+
+                    </div>
+                    <div class="card-detail">
+                        <label for="card-number">Card Number:</label>
+                        <img class="card-img" id="card-img" src="./master.png"  alt="">
+                        <input id="card-number" class="master-card space" type="number" inputmode="numeric" 
+                    maxlength=16
+                        placeholder="xxxx xxxx xxxx xxxx" required>
+
+                    </div>
+                    <div class="card-expry">
+                        <div class="expry">
+                        <label for="expry">Expiry</label>
+                        <input class="master-card" type="date" id="expry" name="expry" placeholder="03/29" required>
+                    </div>
+                        <div class="cvc">
+                            <label for="cvc">CVC</label>
+                            <input class="master-card" type="password" name="cvc" placeholder="" required>
+                        </div>
+                    </div>
+                    <div class="card-detail">
+                        <label for="discaunt">Discount Code</label>
+                        <input class="master-card" type="text" id="discaunt" name="discaunt" placeholder="" required>
+
+                    </div>
+                    <div class="submit">
+                        <button class="submit" type="submit">Pay </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="blur"></div>
+            <div class="container-right-main">
+            <div class="container-right-top">
+                <div class="container-right-top-title">
+                    <span>You're Paying</span>
+                    <p>€ 450.00</p>
+                
+                </div>
+                <div class="container-right-top-content">
+                    <div class="container-right-top-content-main">Custom Gucci Shoes</div>
+                    <div class="container-right-top-content-price">€ 400.00</div>
+                </div> 
+                <div class="container-right-top-content">
+                    <div class="container-right-top-content-main">Nivea Cream 400ml</div>
+                    <div class="container-right-top-content-price">€ 50.00</div>
+                </div> 
+                <div class="container-right-top-content">
+                    <div class="container-right-top-content-main">Discount & Offers</div>
+                    <div class="container-right-top-content-price">€ 0.00</div>
+                </div> 
+              
+
+            </div>
+            <div class="line"></div>
+            <div class="container-right-bottom">
+                <div class="container-right-bottom-detail">
+                 <p>Tax</p>
+                 <span>€0.00</span>
+                </div>
+                <div class="container-right-bottom-detail">
+                    <p>Subtotal</p>
+                    <span>€ 450.00</span>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
