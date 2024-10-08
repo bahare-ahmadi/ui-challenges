@@ -1,0 +1,51 @@
+.game {
+
+    margin: 50px auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: #1c1c1c;
+    background-color: gainsboro;
+    width: 500px;
+
+    border: 1px solid gray;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .game__header {
+
+        text-align: center;
+    }
+
+    .game__body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+
+        .input {
+            width: 200px;
+            height: 30px;
+
+        }
+
+        .enter {
+            background-color: rgb(136, 136, 136);
+            width: 100px;
+            height: 30px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        .result {
+            font-size: 24px;
+        }
+
+        .winn {
+            color:rgb(9, 191, 211);
+        }
+    }
+}
