@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="game">
+        <div class="game-header">Rock paper scissor</div>
+        <div class="game-body">
+            <div class="game-body-left">
+                <div class="self-choices">
+                    <div class="text"><h1>My Choice :</h1></div>
+                    <img class="image" src="./stone.jpg" alt="">
+                    <img class="image" src="./paper.jpg" alt="">
+                    <img class="image" src="./scissor.jpg" alt="">
+                </div>
+                <div class="cpu-choices">
+                    <div class="text"><h1>cpu Choice : </h1></div>
+                    <img class="image-cpu hidden" src="./stone.jpg" alt="">
+                    <img class="image-cpu hidden" src="./paper.jpg" alt="">
+                    <img class="image-cpu hidden" src="./scissor.jpg" alt="">
+                </div>
+            </div>
+            <div class="game-body-right">
+                <div class="game-result">
+                    <div class="game-result-header">Result</div>
+                    <div class="game-result-body">
+                        <div class="game-result-body-left">
+                            <div>cpu</div>
+                            <div><h1 id="cpu-point">0</h1></div>
+                        </div>
+                        <div class="game-result-body-right"><div>you</div>
+                    <div><h1 id="user-point">0</h1></div></div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="game-foother">
+            <div >
+                <button class="button">Refresh</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
