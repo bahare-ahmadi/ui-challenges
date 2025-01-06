@@ -1,0 +1,95 @@
+.video-container {
+    width: 600px;
+    height: 400px;
+    position: relative;
+
+    .progress {
+        width: 100%;
+
+        height: 5px;
+        position: absolute;
+        top: 315px;
+        left: 0px;
+        opacity: 0;
+        transition: opacity 0.3s;
+
+        .main-progress {
+            width: 100%;
+
+            height: 5px;
+            background-color: rgb(219, 219, 219);
+
+            border-radius: 10px;
+
+            .progress-child {
+                width: 0%;
+                height: inherit;
+                background-color: rgb(211, 11, 11);
+                border-radius: 10px;
+
+            }
+        }
+    }
+
+    .control-main {
+        width: inherit;
+        opacity: 0;
+        transition: opacity 0.3s;
+
+        .control {
+            position: absolute;
+            bottom: 30px;
+            width: 580px;
+            height: 50px;
+            background-color: rgb(230, 228, 228);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 10px;
+            opacity: 0.8;
+
+            .control-left {
+                display: flex;
+                column-gap: 5px;
+            }
+
+            .control-right {
+                display: flex;
+                column-gap: 5px;
+            }
+
+            i {
+                font-size: 12px;
+                display: flex;
+                align-items: center;
+
+            }
+
+
+        }
+    }
+}
+
+
+.prev-button,
+.next-button,
+.play-button,
+.stop-button,
+.volume-button,
+.mute-button,
+.arrow-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: 1px solid rgb(212, 211, 211);
+    border-radius: 50%;
+    background-color: whitesmoke;
+
+}
+
+.hidden {
+    display: none;
+}
