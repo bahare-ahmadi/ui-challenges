@@ -24,9 +24,9 @@
         padding: 0;
         width: 400px;
 
-        
 
-      
+
+
 
         .list-item-wrapper {
             display: flex;
@@ -38,6 +38,10 @@
             margin-top: 5px;
             padding: 8px;
 
+            &.done {
+                background-color: #4CAF50;
+            }
+
             .button {
                 border: none;
 
@@ -46,8 +50,4 @@
         }
     }
 
-}
-
-.done {
-    background-color: #4CAF50;
 }

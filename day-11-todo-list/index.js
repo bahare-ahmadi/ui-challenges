@@ -24,9 +24,7 @@ function renderList() {
       li.classList.add("done");
     }
     li.addEventListener("click", () => {
-      value.state = value.state === "todo" ? "done" : "todo"; // Taghyir state
-      renderList(); // List ra dobare render mikonim
-      
+      toggleState(value);
     });
 
     const deleteButton = document.createElement("button");
@@ -45,10 +43,14 @@ function deleteTodo(index) {
   renderList();
 }
 
-function completeTodo(index) {
-  todoList[index].state = "done";
-
-  renderList();
+function toggleState(todoItem) {
+  if (todoItem.state === "todo") {
+    todoItem.state = "done";
+  } else {
+    todoItem.state = "todo";
+  }
+  // value.state = value.state === "todo" ? "done" : "todo"; // Taghyir state
+  renderList(); // List ra dobare render mikonim
 }
 function addItemList() {
   const inputValue = inputButton.value;
