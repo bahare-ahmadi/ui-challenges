@@ -3,10 +3,7 @@
   {
     "question": "Poor Eliza of the famous fairy tale, had to make eleven shirts of what plant?",
     "options": {
-      "A": "Flax",
-      "ooo":{
-        "B": "Hemp"
-      }
+     
     },
     "answer": "Urticaceae"
   },

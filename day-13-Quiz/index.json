@@ -1,0 +1,74 @@
+[
+  {
+    "questionText": "Which of the following is a correct way to define a JavaScript function?",
+    "answerOptions": [
+      { "answerText": "function myFunc()", "isCorrect": true },
+      { "answerText": "def myFunc()", "isCorrect": false },
+      { "answerText": "myFunc = function()", "isCorrect": false },
+      { "answerText": "func myFunc()", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What does \"use strict\" do in JavaScript?",
+    "answerOptions": [
+      { "answerText": "It enables strict mode, which catches common coding mistakes and \"unsafe\" actions.", "isCorrect": true },
+      { "answerText": "It prevents the use of any JavaScript in the page.", "isCorrect": false },
+      { "answerText": "It automatically declares variables.", "isCorrect": false },
+      { "answerText": "It makes the code run faster.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which of the following is NOT a JavaScript data type?",
+    "answerOptions": [
+      { "answerText": "Number", "isCorrect": false },
+      { "answerText": "Boolean", "isCorrect": false },
+      { "answerText": "String", "isCorrect": false },
+      { "answerText": "Float", "isCorrect": true }
+    ]
+  },
+  {
+    "questionText": "What is the output of the following: console.log(typeof NaN)?",
+    "answerOptions": [
+      { "answerText": "\"number\"", "isCorrect": true },
+      { "answerText": "\"NaN\"", "isCorrect": false },
+      { "answerText": "\"undefined\"", "isCorrect": false },
+      { "answerText": "\"object\"", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What is the purpose of the Array.prototype.map() method?",
+    "answerOptions": [
+      { "answerText": "To modify an array in place.", "isCorrect": false },
+      { "answerText": "To filter the elements of an array.", "isCorrect": false },
+      { "answerText": "To iterate through an array and transform each element, returning a new array.", "isCorrect": true },
+      { "answerText": "To sort the elements of an array.", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "How can you add an item to the end of an array in JavaScript?",
+    "answerOptions": [
+      { "answerText": "array.pop()", "isCorrect": false },
+      { "answerText": "array.push(item)", "isCorrect": true },
+      { "answerText": "array.unshift(item)", "isCorrect": false },
+      { "answerText": "array.add(item)", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "What will the following code log: console.log(0.1 + 0.2 === 0.3)?",
+    "answerOptions": [
+      { "answerText": "true", "isCorrect": false },
+      { "answerText": "false", "isCorrect": true },
+      { "answerText": "undefined", "isCorrect": false },
+      { "answerText": "TypeError", "isCorrect": false }
+    ]
+  },
+  {
+    "questionText": "Which method can be used to create an exact copy of an object in JavaScript?",
+    "answerOptions": [
+      { "answerText": "Object.copy()", "isCorrect": false },
+      { "answerText": "Object.assign()", "isCorrect": true },
+      { "answerText": "Object.duplicate()", "isCorrect": false },
+      { "answerText": "Object.clone()", "isCorrect": false }
+    ]
+  }
+]
