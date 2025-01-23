@@ -1,0 +1,159 @@
+@font-face {
+    font-family: 'Emilys Candy';
+    src: url('./Emilys_Candy/EmilysCandy-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #111618;
+    font-family: Emilys Candy, serif;
+}
+
+.container {
+    margin-bottom: 100px;
+
+    padding: 50px;
+
+    .container-title {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+
+
+        color: #ef9577;
+
+
+    }
+
+    .container-main {
+
+        display: flex;
+        flex-direction: row;
+
+
+        .container-left {
+            position: fixed;
+
+            img {
+                width: 600px;
+                border-radius: 20px;
+
+            }
+
+        }
+    }
+
+    .ingredients {
+        align-items: flex-start;
+       
+        color: aliceblue;
+        font-size: 20px;
+        line-height: 50px;
+
+
+        .ingredients-detile {
+            width: auto;
+            display: flex;
+            gap: 30px;
+            position: relative;
+
+            background-size: 10px 100%;
+            background-position: 0 0;
+            left: 660px;
+
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: -1rem;
+                bottom: 0;
+                height: 1px;
+                background-image: linear-gradient(90deg, #ef9577 10%, transparent 0);
+                background-size: 12px 100%;
+                background-position: 0 0;
+                will-change: transform;
+            }
+
+            .ingredients-head {
+                color: white;
+
+            }
+
+            .ingredient-qt {
+
+                color: #ef9577;
+            }
+        }
+    }
+}
+
+.steps {
+    display: flex;
+    flex-flow: column;
+
+
+    position: absolute;
+    left: 700px;
+    right: 0;
+
+    .step-title {
+        color: #ef9577;
+     
+        font-size: 36px;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 20px;
+        font-weight: bold;
+    }
+
+    .step-content {
+        width: auto;
+        display: flex;
+        color: aliceblue;
+        flex-flow: column;
+        gap: 20px;
+        font-size: 20px;
+        align-items: flex-start;
+
+
+
+        .step-content-detail {
+
+            display: flex;
+            flex-flow: row;
+            gap: 10px;
+            position: relative;
+            padding: 10px;
+
+            input[type="checkbox"] {
+                appearance: none;
+                width: 25px;
+                height: 25px;
+                border-radius: 50%;
+                border: 2px solid #ffffff;
+                outline: none;
+                cursor: pointer;
+                flex: none;
+            }
+
+            input[type="checkbox"]:checked {
+                background-color: #ef9577;
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: -1rem;
+                bottom: 0;
+                height: 1px;
+                background-image: linear-gradient(90deg, #ef9577 10%, transparent 0);
+                background-size: 12px 100%;
+                background-position: 0 0;
+                will-change: transform;
+            }
+        }
+    }
+}

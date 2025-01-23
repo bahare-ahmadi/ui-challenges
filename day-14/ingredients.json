@@ -1,0 +1,78 @@
+{
+  "ingredients": [
+    {
+      "text": "eggs",
+      "qt": "2",
+      "completed": false
+    },
+    {
+      "text": "milk or mylk",
+      "qt": "15cl",
+      "completed": false
+    },
+    {
+      "text": "vanilla sugar",
+      "qt": "1 packet (8g)",
+      "completed": false
+    },
+    {
+      "text": "salt",
+      "qt": "a pinch",
+      "completed": false
+    },
+    {
+      "text": "cinnamon (if you like)",
+      "qt": "a pinch",
+      "completed": false
+    },
+    {
+      "text": "flour (I swap 2 tbsps with buckwheat flour)",
+      "qt": "125g",
+      "completed": false
+    },
+    {
+      "text": "baking powder or baking soda",
+      "qt": "1 teaspoon",
+      "completed": false
+    },
+    {
+      "text": "butter or oil (I use coconut oil)",
+      "qt": "",
+      "completed": false
+    }
+  ],
+  "steps": [
+    {
+      "text": "Prepare two large bowls, a spoon, manual or electric whisk and all ingredients.",
+      "completed": false
+    },
+    {
+      "text": "In a large bowl mix all dry ingredients.",
+      "completed": false
+    },
+    {
+      "text": "Separate whites from yolks. Drop the yolks into the dry ingredients. Pour the whites into your second bowl.",
+      "completed": false
+    },
+    {
+      "text": "Mix your yolks with dry ingredients while slowly pouring milk/mylk. You should obtain a thick pancake batter.",
+      "completed": false
+    },
+    {
+      "text": "Whip whites until stiff. Next gently fold them into the mixture.",
+      "completed": false
+    },
+    {
+      "text": "Heat a lightly oiled frying pan over medium high heat.",
+      "completed": false
+    },
+    {
+      "text": "Cook until bubbly, turn and cook for 1-2 more minutes.",
+      "completed": false
+    },
+    {
+      "text": "Eat, smile & share.",
+      "completed": false
+    }
+  ]
+}
