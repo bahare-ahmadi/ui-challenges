@@ -8,6 +8,16 @@ let isStarted = false;
 let timerInterval;
 timerInputValue.focus();
 
+timerInputValue.addEventListener("keydown", (i) => {
+  if (i.key == "Enter") {
+    if (isStarted) {
+      alert("Already started, Please stop first");
+      return;
+    }
+    timerValueTemp = timerInputValue.value;
+    startTimer(timerValueTemp);
+  }
+});
 startBtn.addEventListener("click", () => {
   if (isStarted) {
     alert("Already started, Please stop first");
